@@ -18,7 +18,7 @@ export default function Home() {
   }, []);
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
+    <main className="flex min-h-screen flex-col items-center justify-between p-24 dark:text-white">
       <table border={1} style={{ borderCollapse: 'collapse', width: '100%' }}>
         <thead>
           <tr>
