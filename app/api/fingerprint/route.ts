@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
 
 export async function GET(request: NextRequest) {
-  return NextResponse.json(Array.from(request.headers.entries()));
+  return NextResponse.json(request.headers.entries());
 }
